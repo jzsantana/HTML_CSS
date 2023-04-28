@@ -1,0 +1,289 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+section{
+    background-color: #fff;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+h2{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    top: 0;
+}
+
+
+a{
+    color: #000;
+    text-decoration: none;
+    font: bold;
+}
+
+.firstlook{
+    margin: 0 auto;
+    content: "";
+    background-image: url(./imagens/mitski.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+#first{
+    background-color: #fff;
+    padding: 20px 100px;
+    color: #000;
+    height: 400px;
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.two{
+    content: "";
+    background-image: url(./imagens/mitskitwo.jpg);
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    width: 100%;
+    height: 300px;
+}
+
+#secondtitle{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#second{
+    background-color: #fff;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 100px;
+    height: 300px;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 2px;
+}
+
+.grid1 { grid-area: 1 / 1 / 2 / 2; }
+.grid2 { grid-area: 1 / 2 / 2 / 3; }
+.grid3 { grid-area: 1 / 3 / 2 / 4; }
+.grid4 { grid-area: 1 / 4 / 2 / 5; }
+.grid5 { grid-area: 1 / 5 / 2 / 6; }
+.grid6 { grid-area: 1 / 6 / 2 / 7; }
+
+#img{
+    width: 100%;
+    height: auto;
+}
+
+#instagram, #twitter, #spotify,#youtube, #merch{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin: 20px;
+    padding: 15px;
+}
+
+#instagram:hover, #twitter:hover, #spotify:hover, #youtube:hover, #merch:hover{
+    transform: scale(1.1);
+}
+
+
+/* Configuração das imagens do grid de albuns */
+#cowboy{
+    width: 180px;
+    margin: 15px;
+}
+
+
+#cowboy:hover{
+    transform: scale(1.1);
+}
+
+#lush{
+    width: 180px;
+    margin: 15px;
+}
+
+#lush:hover{
+    transform: scale(1.1);
+}
+
+#retired{
+    width: 180px;
+    margin: 15px;
+}
+
+#retired:hover{
+    transform: scale(1.1);
+}
+
+#puberty{
+    width: 180px;
+    margin: 15px;
+}
+
+
+#puberty:hover{
+    transform: scale(1.1);
+}
+
+#buryme{
+    width: 180px;
+    margin: 15px;
+}
+
+#buryme:hover{
+    transform: scale(1.1);
+}
+
+#cowboy{
+    width: 180px;
+    margin: 15px;
+}
+
+#cowboy:hover{
+    transform: scale(1.1);
+}
+
+#laurel{
+    width: 180px;
+    margin: 15px;
+}
+
+#laurel:hover{
+    transform: scale(1.1);
+}
+
+.three{
+    content: " ";
+    background-image: url(./imagens/mitskithree.jpg);
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    width: 100%;
+    height: 300px;
+}
+
+#third{
+    background-color: #fff;
+    padding: 20px 100px;
+    color: #000;
+    height: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    height: 300px;
+    
+}
+
+/* grid das redes sociais */
+
+#social {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1fr);
+    grid-column-gap: 250px;
+    grid-row-gap: 0px;
+    padding: 20px;
+}
+    
+.social1 { grid-area: 1 / 1 / 2 / 2; }
+.social2 { grid-area: 1 / 2 / 2 / 3; }
+.social3 { grid-area: 1 / 3 / 2 / 4; }
+.social4 { grid-area: 1 / 4 / 2 / 5; }
+.social5 { grid-area: 1 / 5 / 2 / 6; }
+
+
+
+.last{
+    content: "";
+    background-image: url(./imagens/mitski2.jpg);
+    background-repeat: no-repeat;
+    padding-top: 250px;
+    width: 100%;
+    height: 300px;
+}
+
+#lastone{
+    background-color: #030a0b;
+    padding: 20px 100px;
+    color: #fff;
+    height: 400px;
+    margin: 0 auto;
+
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 4px;
+}
+
+h3{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    font-family: Poppins-Regular;
+    color: #333;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    margin: 15px auto;
+    width: 25%;
+    background: #fff;
+    height: 45px;
+    padding: 0 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 31px;
+    font-family: Oswald-Regular;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.2;
+    margin: 0 auto;
+    z-index: 1;
+    border: none;
+}
+
+.login:hover{
+    transform: scale(1.05);
+}
